@@ -23,8 +23,8 @@ hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
 hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none gui=none
 hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=216 ctermbg=238  gui=none
 hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=216 ctermbg=148  gui=none
-hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167  gui=none
-hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167  gui=none
+hi ErrorMsg     guifg=#ff6666 guibg=none    ctermfg=216 ctermbg=167  gui=none
+hi Error        guifg=#FFFFFF guibg=none    ctermfg=216 ctermbg=167  gui=undercurl
 hi NonText      guifg=#333333 guibg=NONE    ctermfg=236 ctermbg=none gui=none
 hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none gui=none
 hi StatusLine   guifg=#888888 guibg=NONE    ctermfg=242 ctermbg=none gui=underline
