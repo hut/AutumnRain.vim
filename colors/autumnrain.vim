@@ -23,10 +23,14 @@ let colors_name = "autumnrain"
 " General colors
 hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none
 hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none
+hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=216 ctermbg=238
+hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=216 ctermbg=148
+hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167
+hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167
 hi NonText      guifg=#333333 guibg=NONE    ctermfg=236 ctermbg=none
 hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none
-hi StatusLine   guifg=#aaaaaa guibg=#1a1a1a ctermfg=242 ctermbg=235
-hi StatusLineNC guifg=#6c6c6c guibg=#292929 ctermfg=235 ctermbg=242
+hi StatusLine   guifg=#888888 guibg=NONE    ctermfg=242 ctermbg=none gui=underline
+hi StatusLineNC guifg=#444444 guibg=NONE    ctermfg=235 ctermbg=none gui=underline
 hi VertSplit    guifg=#444444 guibg=#292929 ctermfg=238 ctermbg=235
 hi Title        guifg=#FAA526 guibg=NONE    ctermfg=214 ctermbg=none
 hi SpecialKey   guifg=#808080 guibg=#343434 ctermfg=244 ctermbg=236
@@ -37,11 +41,7 @@ hi MatchParen   guifg=#EB5D49 guibg=NONE    ctermfg=167 ctermbg=none
 hi Visual       guifg=NONE    guibg=#525252 ctermbg=239 ctermbg=238
 hi Search       guifg=#000000 guibg=#FFCC32 ctermfg=0   ctermbg=221
 hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none
-hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=15  ctermbg=167
-hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=15  ctermbg=167
 hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none
-hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=255 ctermbg=238
-hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=0   ctermbg=148
 hi ColorColumn  guibg=#444444 ctermbg=238
 
 " Common syntax elements.
@@ -49,16 +49,17 @@ hi Comment    guifg=#6B6B6B gui=none ctermfg=242
 hi Todo       guifg=#cccccc gui=none ctermfg=252 guibg=NONE ctermbg=none
 hi Boolean    guifg=#EB5D49 gui=none ctermfg=167
 hi String     guifg=#92AF72 gui=none ctermfg=107
-hi Identifier guifg=#F3F2CC gui=none ctermfg=230
+hi Special    guifg=#92AF72 gui=none ctermfg=107
+"hi Identifier guifg=#B76FAF gui=none ctermfg=134 " plum color
+hi Identifier guifg=#FFEEDD gui=none ctermfg=216
 hi Function   guifg=#FAA526 gui=none ctermfg=214
-hi Type       guifg=#eb5d49 gui=none ctermfg=167 gui=italic
+hi Type       guifg=#EB5D49 gui=none ctermfg=167 gui=italic
+hi Operator   guifg=#EB5D49 gui=none ctermfg=167
 hi Statement  guifg=#EB5D49 gui=none ctermfg=167
 hi Keyword    guifg=#EB5D49 gui=none ctermfg=167
-hi Constant   guifg=#91AADF gui=none ctermfg=230
-hi Number     guifg=#91AADF gui=none ctermfg=151
-hi PreProc    guifg=#eb5d49 gui=none ctermfg=230 gui=italic
-hi Operator   guifg=#eb5d49 gui=none ctermfg=167
-hi Special    guifg=#92AF72 gui=none ctermfg=15
+hi Constant   guifg=#91BADF gui=none ctermfg=68
+hi Number     guifg=#91BADF gui=none ctermfg=68
+hi PreProc    guifg=#4488CC gui=none ctermfg=68
 
 hi link StorageClass String
 
