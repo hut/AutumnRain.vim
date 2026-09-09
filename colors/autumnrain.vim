@@ -61,14 +61,14 @@ hi Todo       guifg=#cccccc gui=none ctermfg=252 guibg=NONE ctermbg=none
 hi Boolean    guifg=#EB5D49 gui=none ctermfg=167
 hi String     guifg=#92AF72 gui=none ctermfg=107
 hi Identifier guifg=#F3F2CC gui=none ctermfg=230
-hi Function   guifg=#CBC983 gui=none ctermfg=186
+hi Function   guifg=#FAA526 gui=none ctermfg=214
 hi Type       guifg=#eb5d49 gui=none ctermfg=167 gui=italic
 hi Statement  guifg=#EB5D49 gui=none ctermfg=167
 hi Keyword    guifg=#EB5D49 gui=none ctermfg=167
 hi Constant   guifg=#F3F2CC gui=none ctermfg=230
 hi Number     guifg=#B3EBBF gui=none ctermfg=151
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
-hi Operator   guifg=#ffffff gui=none ctermfg=15
+hi Operator   guifg=#eb5d49 gui=none ctermfg=167
 hi Special    guifg=#ffffff gui=none ctermfg=15 gui=italic
 
 hi link StorageClass Normal
