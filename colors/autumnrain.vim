@@ -19,27 +19,27 @@ if exists("syntax_on") | syntax reset | endif
 let colors_name = "autumnrain"
 
 " General colors
-hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none
-hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none
-hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=216 ctermbg=238
-hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=216 ctermbg=148
-hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167
-hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167
-hi NonText      guifg=#333333 guibg=NONE    ctermfg=236 ctermbg=none
-hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none
+hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
+hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none gui=none
+hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=216 ctermbg=238  gui=none
+hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=216 ctermbg=148  gui=none
+hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167  gui=none
+hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=216 ctermbg=167  gui=none
+hi NonText      guifg=#333333 guibg=NONE    ctermfg=236 ctermbg=none gui=none
+hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none gui=none
 hi StatusLine   guifg=#888888 guibg=NONE    ctermfg=242 ctermbg=none gui=underline
 hi StatusLineNC guifg=#444444 guibg=NONE    ctermfg=235 ctermbg=none gui=underline
-hi VertSplit    guifg=#444444 guibg=#292929 ctermfg=238 ctermbg=235
-hi Title        guifg=#FAA526 guibg=NONE    ctermfg=214 ctermbg=none
-hi SpecialKey   guifg=#808080 guibg=#343434 ctermfg=244 ctermbg=236
-hi Folded       guifg=#000000 guibg=#4D4D4D ctermfg=0   ctermbg=239
-hi FoldColumn   guifg=#6c6c6c guibg=#292929 ctermfg=242 ctermbg=235
-hi SignColumn   guifg=#76443d guibg=#292929 ctermfg=239 ctermbg=235
-hi MatchParen   guifg=#EB5D49 guibg=NONE    ctermfg=167 ctermbg=none
-hi Visual       guifg=NONE    guibg=#525252 ctermbg=239 ctermbg=238
-hi Search       guifg=#000000 guibg=#FFCC32 ctermfg=0   ctermbg=221
-hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none
-hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none
+hi VertSplit    guifg=#444444 guibg=#292929 ctermfg=238 ctermbg=235  gui=none
+hi Title        guifg=#FAA526 guibg=NONE    ctermfg=214 ctermbg=none gui=none
+hi SpecialKey   guifg=#808080 guibg=#343434 ctermfg=244 ctermbg=236  gui=none
+hi Folded       guifg=#000000 guibg=#4D4D4D ctermfg=0   ctermbg=239  gui=none
+hi FoldColumn   guifg=#6c6c6c guibg=#292929 ctermfg=242 ctermbg=235  gui=none
+hi SignColumn   guifg=#76443d guibg=#292929 ctermfg=239 ctermbg=235  gui=none
+hi MatchParen   guifg=#EB5D49 guibg=NONE    ctermfg=167 ctermbg=none gui=none
+hi Visual       guifg=NONE    guibg=#525252 ctermbg=239 ctermbg=238  gui=none
+hi Search       guifg=#000000 guibg=#FFCC32 ctermfg=0   ctermbg=221  gui=none
+hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none gui=none
+hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none gui=none
 hi ColorColumn  guibg=#444444 ctermbg=238
 
 " Common syntax elements.
