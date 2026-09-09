@@ -36,9 +36,9 @@ endif
 
 " General colors
 hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
-hi Normal       guifg=#F3F2CC guibg=#292929 ctermfg=230 ctermbg=235  gui=none
-hi NonText      guifg=#808080 guibg=#292929 ctermfg=244 ctermbg=235  gui=none
-hi LineNr       guifg=#6c6c6c guibg=#292929 ctermfg=242 ctermbg=235  gui=none
+hi Normal       guifg=#F3F2CC guibg=NONE    ctermfg=230 ctermbg=none gui=none
+hi NonText      guifg=#808080 guibg=NONE    ctermfg=244 ctermbg=none gui=none
+hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none gui=none
 hi StatusLine   guifg=#292929 guibg=#6c6c6c ctermfg=242 ctermbg=235  gui=none
 hi StatusLineNC guifg=#6c6c6c guibg=#292929 ctermfg=235 ctermbg=242  gui=none
 hi VertSplit    guifg=#444444 guibg=#292929 ctermfg=238 ctermbg=235  gui=none

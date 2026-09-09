@@ -3,7 +3,7 @@
 This is a fork of [Autumn.nvim](https://github.com/yorickpeterse/Autumn.vim)
 with a few changes:
 
-- TODO
+- Transparent background (designed for black terminals)
 
 AutumnRain is a color scheme inspired by the colors you can find in the autumn.
 Originally written as a color scheme for Komodo IDE but ported to Vim by
