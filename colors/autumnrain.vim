@@ -15,9 +15,7 @@
 set background=dark
 set t_Co=256
 hi clear
-if exists("syntax_on")
-  syntax reset
-endif
+if exists("syntax_on") | syntax reset | endif
 let colors_name = "autumnrain"
 
 " General colors
@@ -113,5 +111,3 @@ hi link pythonAttribute Function
 
 " Javascript
 hi link javascriptNumber Number
-
-" vim: set tw=80 shiftwidth=2 softtabstop=2 tabstop=2 expandtab
