@@ -5,6 +5,7 @@ with a few changes:
 
 - Transparent background (designed for black terminals)
 - Add italics
+- Warmer default color (greenish -> reddish)
 
 AutumnRain is a color scheme inspired by the colors you can find in the autumn.
 Originally written as a color scheme for Komodo IDE but ported to Vim by

@@ -25,7 +25,7 @@ let colors_name = "autumnrain"
 
 " General colors
 hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
-hi Normal       guifg=#F3F2CC guibg=NONE    ctermfg=230 ctermbg=none gui=none
+hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none gui=none
 hi NonText      guifg=#808080 guibg=NONE    ctermfg=244 ctermbg=none gui=none
 hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none gui=none
 hi StatusLine   guifg=#292929 guibg=#6c6c6c ctermfg=242 ctermbg=235  gui=none
@@ -40,11 +40,11 @@ hi MatchParen   guifg=#EB5D49 guibg=NONE    ctermfg=167 ctermbg=none gui=none
 hi Visual       guifg=NONE    guibg=#525252 ctermbg=239 ctermbg=238  gui=none
 hi Search       guifg=#000000 guibg=#FFCC32 ctermfg=0   ctermbg=221  gui=none
 hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none gui=none
-hi ErrorMsg     guifg=#ffffff guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
-hi Error        guifg=#ffffff guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
+hi ErrorMsg     guifg=#FFEEDD guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
+hi Error        guifg=#FFEEDD guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
 hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none gui=none
-hi Pmenu        guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
-hi PmenuSel     guifg=#ffffff guibg=#6B6B6B ctermfg=0   ctermbg=148
+hi Pmenu        guifg=#FFEEDD guibg=#202020 ctermfg=255 ctermbg=238
+hi PmenuSel     guifg=#FFEEDD guibg=#6B6B6B ctermfg=0   ctermbg=148
 hi ColorColumn  guibg=#444444 ctermbg=238
 
 " Common syntax elements.
