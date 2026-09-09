@@ -41,6 +41,9 @@ hi Search       guifg=#000000 guibg=#FFCC32 ctermfg=0   ctermbg=221  gui=none
 hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none gui=none
 hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none gui=none
 hi ColorColumn  guibg=#444444 ctermbg=238
+hi SpellBad     gui=undercurl
+hi SpellCap     gui=undercurl
+hi SpellLocal   gui=undercurl
 
 " Common syntax elements.
 hi Comment    guifg=#6B6B6B gui=none ctermfg=242
@@ -60,6 +63,9 @@ hi Number     guifg=#91BADF gui=none ctermfg=68
 hi PreProc    guifg=#4488CC gui=none ctermfg=68
 
 hi link StorageClass String
+
+" LSP
+hi @markup.link guifg=#91BADF gui=underline
 
 " Ruby
 hi rubySymbol guifg=#E8A75C guibg=NONE ctermfg=179
