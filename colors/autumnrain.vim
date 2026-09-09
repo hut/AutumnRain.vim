@@ -84,6 +84,8 @@ hi link cssIdentifier   Identifier
 hi link cssFontProp     cssIdentifier
 hi link cssImport       Statement
 hi link cssClassName    Statement
+hi link cssDefinition   String
+hi link cssFontProp     String
 hi link cssColor        Number
 hi link cssBraces       Operator
 hi link cssTagName      Function
