@@ -26,12 +26,12 @@ let colors_name = "autumnrain"
 " General colors
 hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
 hi Normal       guifg=#FFEEDD guibg=NONE    ctermfg=216 ctermbg=none gui=none
-hi NonText      guifg=#808080 guibg=NONE    ctermfg=244 ctermbg=none gui=none
+hi NonText      guifg=#333333 guibg=NONE    ctermfg=236 ctermbg=none gui=none
 hi LineNr       guifg=#6c6c6c guibg=NONE    ctermfg=242 ctermbg=none gui=none
-hi StatusLine   guifg=#292929 guibg=#6c6c6c ctermfg=242 ctermbg=235  gui=none
+hi StatusLine   guifg=#aaaaaa guibg=#1a1a1a ctermfg=242 ctermbg=235  gui=none
 hi StatusLineNC guifg=#6c6c6c guibg=#292929 ctermfg=235 ctermbg=242  gui=none
 hi VertSplit    guifg=#444444 guibg=#292929 ctermfg=238 ctermbg=235  gui=none
-hi Title        guifg=#f6f3e8 guibg=NONE    ctermfg=7   ctermbg=none gui=bold
+hi Title        guifg=#FAA526 guibg=NONE    ctermfg=214 ctermbg=none gui=none
 hi SpecialKey   guifg=#808080 guibg=#343434 ctermfg=244 ctermbg=236  gui=none
 hi Folded       guifg=#000000 guibg=#4D4D4D ctermfg=0   ctermbg=239  gui=none
 hi FoldColumn   guifg=#6c6c6c guibg=#292929 ctermfg=242 ctermbg=235  gui=none
@@ -57,13 +57,13 @@ hi Function   guifg=#FAA526 gui=none ctermfg=214
 hi Type       guifg=#eb5d49 gui=none ctermfg=167 gui=italic
 hi Statement  guifg=#EB5D49 gui=none ctermfg=167
 hi Keyword    guifg=#EB5D49 gui=none ctermfg=167
-hi Constant   guifg=#F3F2CC gui=none ctermfg=230
-hi Number     guifg=#B3EBBF gui=none ctermfg=151
-hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
+hi Constant   guifg=#91AADF gui=none ctermfg=230
+hi Number     guifg=#91AADF gui=none ctermfg=151
+hi PreProc    guifg=#eb5d49 gui=none ctermfg=230 gui=italic
 hi Operator   guifg=#eb5d49 gui=none ctermfg=167
-hi Special    guifg=#ffffff gui=none ctermfg=15 gui=italic
+hi Special    guifg=#92AF72 gui=none ctermfg=15
 
-hi link StorageClass Normal
+hi link StorageClass String
 
 " Ruby
 hi rubySymbol guifg=#E8A75C guibg=NONE ctermfg=179
@@ -81,6 +81,7 @@ hi link rubyRegexp           rubySymbol
 hi link cssIdentifier   Identifier
 hi link cssFontProp     cssIdentifier
 hi link cssImport       Statement
+hi link cssClassName    Statement
 hi link cssColor        Number
 hi link cssBraces       Operator
 hi link cssTagName      Function
@@ -110,6 +111,7 @@ hi link htmlArg     Function
 
 " Python
 hi link PythonComment Comment
+hi link pythonAttribute Function
 
 " Javascript
 hi link javascriptNumber Number
