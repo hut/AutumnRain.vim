@@ -12,6 +12,8 @@ AutumnRain is a color scheme inspired by the colors you can find in the autumn.
 Originally written as a color scheme for Komodo IDE but ported to Vim by
 Kenneth Love and Chris Jones, improved by Yorick Peterse and Yuni.
 
+Here's a screenshot of some Python code using the VictorMono Nerd Font:
+
 ![Screenshot](screenshot.png)
 
 I (Yuni) found this color scheme when I tried out the Helix editor, which ships
