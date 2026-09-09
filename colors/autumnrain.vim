@@ -23,17 +23,6 @@ endif
 
 let colors_name = "autumnrain"
 
-" Vim >= 7.0 specific colors.
-if version >= 700
-  hi Pmenu    guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
-  hi PmenuSel guifg=#ffffff guibg=#6B6B6B ctermfg=0   ctermbg=148
-endif
-
-" ColorColumn is available since Vim 7.3.
-if version >= 703
-  hi ColorColumn guibg=#444444 ctermbg=238
-endif
-
 " General colors
 hi Cursor       guifg=NONE    guibg=#626262 ctermbg=241 ctermbg=none gui=none
 hi Normal       guifg=#F3F2CC guibg=NONE    ctermfg=230 ctermbg=none gui=none
@@ -54,6 +43,9 @@ hi Question     guifg=#92AF72 guibg=NONE    ctermfg=107 ctermbg=none gui=none
 hi ErrorMsg     guifg=#ffffff guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
 hi Error        guifg=#ffffff guibg=#EB5D49 ctermfg=15  ctermbg=167  gui=none
 hi Directory    guifg=#7895B7 guibg=NONE    ctermfg=103 ctermbg=none gui=none
+hi Pmenu        guifg=#ffffff guibg=#202020 ctermfg=255 ctermbg=238
+hi PmenuSel     guifg=#ffffff guibg=#6B6B6B ctermfg=0   ctermbg=148
+hi ColorColumn  guibg=#444444 ctermbg=238
 
 " Common syntax elements.
 hi Comment    guifg=#6B6B6B gui=none ctermfg=242
@@ -122,25 +114,4 @@ hi link PythonComment Comment
 " Javascript
 hi link javascriptNumber Number
 
-" Coffeescript
-hi link coffeeSpecialIdent Directory
-hi link coffeeObject       Constant
-hi link coffeeRegex        rubyRegexp
-hi link coffeeObjAssign    rubyFunction
-
-" Vala
-hi link valaStorage   valaRepeat
-hi link valaModifier  valaRepeat
-hi link valaCharacter Character
-hi link valaType      Function
-
-" D
-
-" I prefer operators such as `this` and `new` to be red instead of the default
-" colour.
-hi link dOperator   Keyword
-hi link dAnnotation Directory
-hi link dScopeDecl  Keyword
-
-" Annoy fellow Vim users by enforcing these indentation rules.
 " vim: set tw=80 shiftwidth=2 softtabstop=2 tabstop=2 expandtab
